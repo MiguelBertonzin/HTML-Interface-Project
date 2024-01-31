@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Busca de Bebidas App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Busca de Bebidas</h1>
+        <div>
+            <input type="text" id="searchInput" placeholder="Digite o nome ou caráter inicial">
+            <button onclick="searchDrink()">Pesquisar por Nome</button>
+            <button onclick="searchByCharacter()">Pesquisar por caráter</button>
+        </div>
+        <div id="drinkDetails">
+            <!-- Aqui serão exibidas as informações da bebida -->
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
